@@ -20,7 +20,7 @@ li {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /* Remove underline from links */
 }
 
 a,
@@ -91,6 +91,7 @@ img {
 .info-container {
     display: flex;
     gap: 48px;
+    justify-content: center;
 }
 
 .box {
